@@ -1,0 +1,68 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/773/424/16/abstract-science-fiction-digital-art-wallpaper-preview.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+#cerebro {
+  border-radius: 50%;
+  width: 15rem;
+  height: 15rem;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: whitesmoke;
+  margin-top: 4rem;
+}
+
+p {
+  color: rgb(255, 255, 255);
+  font-size: larger;
+}
+
+.inputs {
+  border-radius: 0.7rem;
+  width: 15%;
+  height: 2rem;
+  border: none;
+  outline: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inputs::placeholder {
+  text-align: center;
+  color: #bcbcbc;
+}
+
+#response {
+  color: whitesmoke;
+  background-color: #444444;
+  border-radius: 0.7rem;
+  width: 7rem;
+  height: 2rem;
+  border: none;
+  outline: none;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+
+#celebrate {
+  width: 17.5vw;
+}

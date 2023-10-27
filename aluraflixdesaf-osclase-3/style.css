@@ -1,0 +1,74 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://i.pinimg.com/originals/47/05/c7/4705c78aef50055eaf171e5cc003f346.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ce0d0d;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-latam-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.container_todosFilmes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container_filme {
+  padding: 2%;
+  display: block;
+  max-width: 30%;
+}
+
+img {
+  max-height: 250px;
+  max-width: 100%;
+  border-image-slice: 50%;
+  border-radius: 10%;
+}
+
+.imagenPeli {
+  max-height: 258px;
+  max-width: 166px;
+  border-image-slice: 50%;
+  border-radius: 10%;
+  filter: grayscale(50%);
+  transition: transform 0.5s;
+}
+
+.imagenPeli:hover {
+  filter: saturate(110%);
+  transform: scale(1.2);
+  box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 0.2);
+}
+
+p {
+  color: white;
+  text-shadow: gray 0.2em 0.2em 0.4em;
+}
